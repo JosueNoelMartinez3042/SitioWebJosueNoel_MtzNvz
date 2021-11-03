@@ -1,0 +1,65 @@
+h1{
+    font-size: 40px;/*Tamaño de fuente*/
+    font-family: sans-serif;/*Tipo de letra*/
+    font-weight: bold;/*Resaltar letra, bold, lighter*/
+}
+h2{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;/*Ahorrar lineas font: bold 14px sans-serif;*/
+}
+header,section,footer,aside,nav,article,hgroup{
+    /*border: 1px solid black*/
+    display: block;
+}
+body{
+    text-align: center;
+}
+.agrupar{
+    border: 5px solid black;
+    /*background: green;*/
+    margin: auto;
+}
+.cabecera{
+    background:indianred;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+.cabecera h1{
+    text-align: left;
+}
+.menu{
+    background: #ccc;
+    padding: 15px;
+    text-align: left;
+}
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+.seccion{
+    padding: 1px solid black;
+    background: whitesmoke;
+    padding: 20px;
+
+    
+}
+.columna{
+    
+    padding: 10px;
+    background: #ccc;
+    
+}
+.pie{
+    clear: both;
+    padding: 20px;
+    background: #2d3436;
+}
+time{
+    color:#999;
+}
+article footer{
+    text-align: right;
+}
